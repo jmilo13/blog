@@ -9,3 +9,11 @@ body{
     padding: 10px;
     margin: 0px auto;
 }
+#cabecera{
+    text-align: left;
+    margin: 0px auto;
+    width: 70%;
+    box-shadow:  -16px 11px 26px -5px rgba(112,108,112,0.66);
+    background: chartreuse;
+    padding: 15px;
+}
