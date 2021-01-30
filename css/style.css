@@ -1,7 +1,7 @@
 body{
     text-align: center;
     font-family: 'times new roman';
-    color: blue;
+    color: black;
 }
 #container{
     width: 70%;
@@ -10,10 +10,19 @@ body{
     margin: 0px auto;
 }
 #cabecera{
+    display: flex;
+    justify-content:left;
+    align-items: center;
     text-align: left;
     margin: 0px auto;
     width: 70%;
     box-shadow:  -16px 11px 26px -5px rgba(112,108,112,0.66);
-    background: chartreuse;
+    background: #1A5276;
     padding: 15px;
+    color: #D0D3D4;
+}
+#logo{
+    width: 20px;
+    height: 30px;
+    margin-right: 5px;
 }
