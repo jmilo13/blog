@@ -1,24 +1,28 @@
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-family: 'times new roman';
     color: black;
 }
 #container{
-    width: 70%;
     border: 1px solid blueviolet;
     padding: 10px;
-    margin: 0px auto;
+    max-width: 70%;
+    min-width: 70%;
 }
 #cabecera{
     display: flex;
     justify-content:left;
     align-items: center;
     text-align: left;
-    margin: 0px auto;
-    width: 70%;
     box-shadow:  -16px 11px 26px -5px rgba(112,108,112,0.66);
     background: #1A5276;
-    padding: 15px;
+    padding: 10px;
+    max-width: 70%;
+    min-width: 70%;
     color: #D0D3D4;
 }
 #logo{
@@ -26,3 +30,11 @@ body{
     height: 30px;
     margin-right: 5px;
 }
+footer{
+    border: solid violet;
+    justify-content: center;
+    max-width: 70%;
+    min-width: 70%;
+    padding: 10px;
+    background-color: #1A5276;
+    color: white;
